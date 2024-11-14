@@ -6,14 +6,14 @@ import time
 
 def init_db():
     conn = mysql.connector.connect(
-        host='localhost', username='root', password='230201074@ist',
+        host='localhost', username='root', password='',
         database='weather_db'
     )
     return conn
 
 def init_dbs():
     conn = mysql.connector.connect(
-        host='localhost', username='root', password='230201074@ist',
+        host='localhost', username='root', password='',
         database='weather_db'
     )
     return conn
