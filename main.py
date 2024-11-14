@@ -264,7 +264,7 @@ class WeatherApp(tk.Frame):
 # Function to get the weather data
     def init_db(self):
         conn = mysql.connector.connect(
-            host='localhost', username='root', password='230201074@ist',
+            host='', username='root', password='',
             database='weather_db'
         )
         return conn
